@@ -1,0 +1,12 @@
+variable "owner" {}
+variable "aws_region" {}
+variable "project_name" {}
+variable "public_subnets" {}
+variable "alb_tg_id" {}
+variable "key_name" {}
+variable "ec2_instance_type" {}
+variable "ec2_monitoring" {}
+variable "iam_instance_profile" {}
+variable "sg_ec2" {}
+variable "tags" {}
+variable "tags_asg" {}
