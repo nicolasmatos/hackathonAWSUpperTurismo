@@ -35,5 +35,5 @@ variable "sg_alb" {
 variable "sg_rds" {
   type        = list(number)
   description = "Ports for the SG RDS"
-  default     = [5432]
+  default     = [1433]
 }

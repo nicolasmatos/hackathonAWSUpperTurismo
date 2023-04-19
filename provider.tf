@@ -9,7 +9,7 @@ terraform {
       source = "hashicorp/random"
     }
   }
-  
+
   backend "s3" {
     bucket = "hackathon-upper-turismo-terraform-state"
     key    = "terraform.tfstate"

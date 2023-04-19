@@ -8,13 +8,13 @@ variable "tags" {}
 variable "db_instance_type" {
   type        = string
   description = "Database Instance Type"
-  default     = "db.t3.micro"
+  default     = "db.t3.small"
 }
 
 variable "db_port" {
   type        = number
   description = "Database Port"
-  default     = 5432
+  default     = 1433
 }
 
 variable "db_name" {
