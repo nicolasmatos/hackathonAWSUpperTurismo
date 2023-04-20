@@ -1,0 +1,57 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.cardcapa {
+    display: inline-block;
+    margin: 5px;
+    margin-top: 50px;
+    width: 350px;
+    
+}
+
+.logopostcard {
+    width: 350px;
+    height: 200px;
+}
+
+.logo {
+    width: 400px;
+    height: 200px;
+}
+
+.singlelogo {
+    width: 25px;
+    height: 25px;
+}
+
+.table {
+    margin-top: 50px
+}
+
+.card-text {
+    text-align: justify
+}
+
+.footer{
+    margin-top: 40px;
+}

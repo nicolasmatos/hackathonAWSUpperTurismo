@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.103.50" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Cards\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Cards\" />
+    <None Remove="Models\Estado.proto" />
+  </ItemGroup>
+</Project>

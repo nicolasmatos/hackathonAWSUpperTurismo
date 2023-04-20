@@ -1,0 +1,19 @@
+﻿@model postcard.Models.Estado
+<div class="container text-center">
+    <h1>@Model.estado</h1>
+    <div class="row">
+        @foreach (var item in Model.listpostcards)
+        {
+            <div class="col">
+                <div class="card cardcapa">
+                    <img src="@item.URLimg" class="logopostcard" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.cidade - @item.descricao</h5>
+                        <p class="card-text"></p>
+                        <a href='@Url.Action("DownloadFile", "Cards", new { cardname = "cards/"+@item.uf+"/"+@item.card, filename = @item.card })' class="btn btn-primary">Download</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

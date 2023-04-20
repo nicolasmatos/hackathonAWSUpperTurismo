@@ -1,0 +1,138 @@
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/appsettings.Development.json
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/appsettings.json
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/postcard.staticwebassets.runtime.json
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/postcard
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/postcard.deps.json
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/postcard.runtimeconfig.json
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/postcard.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/postcard.pdb
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Azure.Core.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Azure.Identity.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Azure.Storage.Blobs.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Azure.Storage.Common.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.ApplicationInsights.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/System.IO.Hashing.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/System.Runtime.Caching.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.csproj.AssemblyReference.cache
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.GeneratedMSBuildEditorConfig.editorconfig
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.AssemblyInfoInputs.cache
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.AssemblyInfo.cs
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.csproj.CoreCompileInputs.cache
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.MvcApplicationPartsAssemblyInfo.cache
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.RazorAssemblyInfo.cache
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.RazorAssemblyInfo.cs
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/staticwebassets/msbuild.postcard.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/staticwebassets/msbuild.build.postcard.props
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.postcard.props
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.postcard.props
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/staticwebassets.build.json
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/staticwebassets.development.json
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/scopedcss/bundle/postcard.styles.css
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/scopedcss/projectbundle/postcard.bundle.scp.css
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.csproj.CopyComplete
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/refint/postcard.dll
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.pdb
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/postcard.genruntimeconfig.cache
+/Users/augroberto/Documents/Treinamento Azure 2023/FORMACAO-AZURE/Aula 6/Projeto Pratico/Blob Container/Source/postcard/obj/Debug/net7.0/ref/postcard.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.csproj.AssemblyReference.cache
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.GeneratedMSBuildEditorConfig.editorconfig
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.AssemblyInfoInputs.cache
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.AssemblyInfo.cs
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.csproj.CoreCompileInputs.cache
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.MvcApplicationPartsAssemblyInfo.cache
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.RazorAssemblyInfo.cache
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.RazorAssemblyInfo.cs
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/refint/postcard.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.pdb
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/appsettings.Development.json
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/appsettings.json
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/postcard.staticwebassets.runtime.json
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/postcard
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/postcard.deps.json
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/postcard.runtimeconfig.json
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/postcard.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/postcard.pdb
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/AWSSDK.Core.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/AWSSDK.S3.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Azure.Core.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Azure.Identity.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/System.Runtime.Caching.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/staticwebassets/msbuild.postcard.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/staticwebassets/msbuild.build.postcard.props
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.postcard.props
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.postcard.props
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/staticwebassets.build.json
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/staticwebassets.development.json
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/scopedcss/bundle/postcard.styles.css
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/scopedcss/projectbundle/postcard.bundle.scp.css
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.csproj.CopyComplete
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/postcard.genruntimeconfig.cache
+/Users/augroberto/Documents/Hackaton AWS/Source/postcard/obj/Debug/net7.0/ref/postcard.dll
