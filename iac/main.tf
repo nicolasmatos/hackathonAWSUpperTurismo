@@ -7,6 +7,24 @@ module "network" {
   tags         = local.tags
 }
 
+module "iam" {
+  source = "./modules/iam"
+
+  owner        = var.owner
+  aws_region   = var.aws_region
+  project_name = var.project_name
+  tags         = local.tags
+}
+
+module "s3" {
+  source = "./modules/s3"
+
+  owner        = var.owner
+  aws_region   = var.aws_region
+  project_name = var.project_name
+  tags         = local.tags
+}
+
 module "rds" {
   source = "./modules/rds"
 
@@ -20,15 +38,35 @@ module "rds" {
   depends_on = [module.network]
 }
 
+module "sm" {
+  source = "./modules/sm"
+
+  owner                  = var.owner
+  aws_region             = var.aws_region
+  project_name           = var.project_name
+  rds_address            = module.rds.rds_address
+  rds_db_name            = module.rds.rds_db_name
+  rds_port               = module.rds.rds_port
+  rds_user               = module.rds.rds_user
+  rds_password           = module.rds.rds_password
+  s3_bucket_name         = module.s3.s3_bucket_name
+  iam_user_access_id     = module.iam.iam_user_access_id
+  iam_user_access_secret = module.iam.iam_user_access_secret
+  tags                   = local.tags
+
+  depends_on = [module.rds, module.iam, module.s3]
+}
+
 module "ec2" {
   source = "./modules/ec2"
 
-  owner          = var.owner
-  aws_region     = var.aws_region
-  project_name   = var.project_name
-  public_subnets = module.network.public_subnets_id
-  sg_ec2         = [module.network.sg_ec2_id]
-  tags           = local.tags
+  owner                = var.owner
+  aws_region           = var.aws_region
+  project_name         = var.project_name
+  public_subnets       = module.network.public_subnets_id
+  iam_instance_profile = module.iam.iam_instance_profile
+  sg_ec2               = [module.network.sg_ec2_id]
+  tags                 = local.tags
 
   depends_on = [module.rds]
 }
@@ -60,7 +98,7 @@ module "as" {
   key_name             = module.ec2.key_name
   ec2_instance_type    = module.ec2.ec2_instance_type
   ec2_monitoring       = module.ec2.ec2_monitoring
-  iam_instance_profile = module.ec2.iam_instance_profile
+  iam_instance_profile = module.iam.iam_instance_profile
   sg_ec2               = [module.network.sg_ec2_id]
   tags                 = local.tags
   tags_asg             = local.tags_asg

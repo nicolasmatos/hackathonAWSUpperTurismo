@@ -2,6 +2,7 @@ variable "owner" {}
 variable "aws_region" {}
 variable "project_name" {}
 variable "public_subnets" {}
+variable "iam_instance_profile" {}
 variable "sg_ec2" {}
 variable "tags" {}
 

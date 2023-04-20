@@ -11,25 +11,24 @@ env:
     DB_PASSWORD: $SECRET_ARN:DB_PASSWORD
     DB_PORT: $SECRET_ARN:DB_PORT
     DB_USER: $SECRET_ARN:DB_USER
-    SQLDatabaseConnection: $SECRET_ARN:SQLDatabaseConnection
-    BucketName: $SECRET_ARN:BucketName
-    AwsAccessKey: $SECRET_ARN:AwsAccessKey
-    AwsSecretAccessKey: $SECRET_ARN:AwsSecretAccessKey
+    BUCKET_NAME: $SECRET_ARN:BUCKET_NAME
+    USER_ACCESS_ID: $SECRET_ARN:USER_ACCESS_ID
+    USER_ACCESS_SECRET: $SECRET_ARN:USER_ACCESS_SECRET
+    SQL_DATABASE_CONNECTION: $SECRET_ARN:SQL_DATABASE_CONNECTION
 phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
       - aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $OWNER.dkr.ecr.$AWS_REGION.amazonaws.com
       - echo Setting variables dockerfile...
-      - sed -i "s/API_PORT_VALUE/$API_PORT/g" Source
-      - sed -i "s/DB_DATABASE_VALUE/$DB_DATABASE/g" Dockerfile
-      - sed -i "s/DB_HOST_VALUE/$DB_HOST/g" Dockerfile
-      - sed -i "s/DB_PORT_VALUE/$DB_PORT/g" Dockerfile
-      - sed -i "s/DB_USER_VALUE/$DB_USER/g" Dockerfile
-      - sed -i "s/DB_PASSWORD_VALUE/$DB_PASSWORD/g" Dockerfile
+      - sed -i "s/#SQL_DATABASE_CONNECTION#/$SQL_DATABASE_CONNECTION/g" Source/postcard/appsettings.json
+      - sed -i "s/#BUCKET_NAME#/$BUCKET_NAME/g" Source/postcard/appsettings.json
+      - sed -i "s/#USER_ACCESS_ID#/$USER_ACCESS_ID/g" Source/postcard/appsettings.json
+      - sed -i "s/#USER_ACCESS_SECRET#/$USER_ACCESS_SECRET/g" Source/postcard/appsettings.json
   build:
       commands:
         - echo Build image `date`...
+        - cd Source/postcard
         - docker build -t $PROJECT_NAME:DEV .
         - docker tag $PROJECT_NAME:DEV $OWNER.dkr.ecr.$AWS_REGION.amazonaws.com/$PROJECT_NAME:DEV
   post_build:
