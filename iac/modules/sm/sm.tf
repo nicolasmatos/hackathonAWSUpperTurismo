@@ -25,7 +25,7 @@ resource "aws_secretsmanager_secret_version" "rds" {
       "BUCKET_NAME"           = var.s3_bucket_name,
       "USER_ACCESS_ID"        = var.iam_user_access_id,
       "USER_ACCESS_SECRET"    = var.iam_user_access_secret,
-      "SQL_DATABASE_CONNECTION" = "Server=tcp:${var.rds_address},${var.rds_port};Initial Catalog=postcardsdb;Persist Security Info=False;User ID=cloud;Password=${var.rds_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;"
+      "SQL_DATABASE_CONNECTION" = "Server=tcp:${var.rds_address},${var.rds_port};Initial Catalog=${var.rds_db_name};Persist Security Info=False;User ID=${var.rds_user};Password=${var.rds_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;"
     }
   )
 }
