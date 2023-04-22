@@ -14,17 +14,17 @@ resource "aws_secretsmanager_secret_version" "rds" {
   secret_id = aws_secretsmanager_secret.secrets.id
   secret_string = jsonencode(
     {
-      "AWS_REGION"            = var.aws_region,
-      "OWNER"                 = var.owner,
-      "PROJECT_NAME"          = var.project_name,
-      "DB_DATABASE"           = var.rds_db_name,
-      "DB_HOST"               = var.rds_address,
-      "DB_PORT"               = var.rds_port,
-      "DB_USER"               = var.rds_user,
-      "DB_PASSWORD"           = var.rds_password,
-      "BUCKET_NAME"           = var.s3_bucket_name,
-      "USER_ACCESS_ID"        = var.iam_user_access_id,
-      "USER_ACCESS_SECRET"    = var.iam_user_access_secret,
+      "AWS_REGION"              = var.aws_region,
+      "OWNER"                   = var.owner,
+      "PROJECT_NAME"            = var.project_name,
+      "DB_DATABASE"             = var.rds_db_name,
+      "DB_HOST"                 = var.rds_address,
+      "DB_PORT"                 = var.rds_port,
+      "DB_USER"                 = var.rds_user,
+      "DB_PASSWORD"             = var.rds_password,
+      "BUCKET_NAME"             = var.s3_bucket_name,
+      "USER_ACCESS_ID"          = var.iam_user_access_id,
+      "USER_ACCESS_SECRET"      = var.iam_user_access_secret,
       "SQL_DATABASE_CONNECTION" = "Server=tcp:${var.rds_address},${var.rds_port};Initial Catalog=${var.rds_db_name};Persist Security Info=False;User ID=${var.rds_user};Password=${var.rds_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;"
     }
   )

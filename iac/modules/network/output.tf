@@ -22,6 +22,10 @@ output "sg_rds_id" {
   value = aws_security_group.sg_rds.id
 }
 
+output "sg_ecs_id" {
+  value = aws_security_group.sg_ecs.id
+}
+
 output "db_group_private_id" {
   value = aws_db_subnet_group.db_group_private.id
 }

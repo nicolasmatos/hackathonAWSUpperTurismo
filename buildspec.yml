@@ -30,10 +30,12 @@ phases:
         - cd Source/postcard
         - docker build -t $PROJECT_NAME:DEV .
         - docker tag $PROJECT_NAME:DEV $OWNER.dkr.ecr.$AWS_REGION.amazonaws.com/$PROJECT_NAME:DEV
+        - docker tag $PROJECT_NAME:DEV $OWNER.dkr.ecr.$AWS_REGION.amazonaws.com/$PROJECT_NAME:latest
   post_build:
       commands:
         - echo Pushing the Docker image `date`...
         - docker push $OWNER.dkr.ecr.$AWS_REGION.amazonaws.com/$PROJECT_NAME:DEV
+        - docker push $OWNER.dkr.ecr.$AWS_REGION.amazonaws.com/$PROJECT_NAME:latest
         - echo Finish build `date`...
 artifacts:
   files:

@@ -9,3 +9,7 @@ output "iam_user_access_id" {
 output "iam_user_access_secret" {
   value = aws_iam_access_key.user_access_key.secret
 }
+
+output "iam_role_ecs" {
+  value = aws_iam_role.role_ecs.arn
+}

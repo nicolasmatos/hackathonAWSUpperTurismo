@@ -68,7 +68,7 @@ module "ec2" {
   sg_ec2               = [module.network.sg_ec2_id]
   tags                 = local.tags
 
-  depends_on = [module.rds]
+  depends_on = [module.rds, module.sm]
 }
 
 module "alb" {
@@ -80,11 +80,35 @@ module "alb" {
   domain_name    = var.domain_name
   vpc_id         = module.network.vpc_id
   public_subnets = module.network.public_subnets_id
-  ec2_id         = module.ec2.ec2_id
   sg_alb         = [module.network.sg_alb_id]
   tags           = local.tags
 
-  depends_on = [module.ec2]
+}
+
+module "ecr" {
+  source = "./modules/ecr"
+
+  owner        = var.owner
+  aws_region   = var.aws_region
+  project_name = var.project_name
+  tags         = local.tags
+}
+
+module "ecs" {
+  source = "./modules/ecs"
+
+  owner           = var.owner
+  aws_region      = var.aws_region
+  project_name    = var.project_name
+  alb_tg_id       = module.alb.alb_tg_id
+  container_image = module.ecr.repository_uri
+  iam_role_ecs    = module.iam.iam_role_ecs
+  vpc_id          = module.network.vpc_id
+  public_subnets  = module.network.public_subnets_id
+  sg_ecs          = [module.network.sg_ecs_id]
+  tags            = local.tags
+
+  depends_on = [module.alb, module.ecr]
 }
 
 module "as" {

@@ -22,7 +22,7 @@ resource "aws_lb_target_group" "alb_tg" {
     }
   )
 
-  target_type = "instance"
+  target_type = "ip"
   vpc_id      = var.vpc_id
 
   health_check {

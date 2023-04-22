@@ -37,3 +37,9 @@ variable "sg_rds" {
   description = "Ports for the SG RDS"
   default     = [1433]
 }
+
+variable "sg_ecs" {
+  type        = list(number)
+  description = "Ports for the SG ECS"
+  default     = [80, 443]
+}

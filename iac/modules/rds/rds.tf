@@ -16,7 +16,7 @@ resource "aws_db_instance" "rds" {
   username               = var.db_user
   password               = random_password.password.result
   port                   = var.db_port
-  availability_zone      = element(data.aws_availability_zones.available.names, 1)
+  availability_zone      = data.aws_availability_zones.available.names[0]
   skip_final_snapshot    = true
   db_subnet_group_name   = var.db_group_private
   vpc_security_group_ids = var.sg_rds
