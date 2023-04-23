@@ -1,7 +1,12 @@
 version: 0.0
 os: linux
-hooks:
-  AfterInstall:
-    - location: scripts/stop-container.sh
-  ApplicationStart:
-    - location: scripts/start-container.sh
+Resources:
+ - TargetService:
+     Type: AWS::ECS::Service
+     Properties:
+       TaskDefinition: "arn:aws:ecs:us-east-1:432627114264:task-definition/hackathon-upper-turismo-task:5"
+       LoadBalancerInfo:
+         ContainerName: hackathon-upper-turismo-container
+         ContainerPort: 80
+Hooks:
+  - AfterAllowTestTraffic: "BlueGreenDeploy"

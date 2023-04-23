@@ -38,6 +38,33 @@ resource "aws_lb_target_group" "alb_tg" {
   }
 }
 
+resource "aws_lb_target_group" "alb_tg_green" {
+  name     = "tg-${var.project_name}-green"
+  port     = 80
+  protocol = "HTTP"
+  tags = merge(
+    var.tags,
+    {
+      Name = "tg-${var.project_name}-green"
+    }
+  )
+
+  target_type = "ip"
+  vpc_id      = var.vpc_id
+
+  health_check {
+    healthy_threshold = 2
+    path              = "/"
+    matcher           = "200,301,302"
+  }
+
+  stickiness {
+    cookie_duration = 3600
+    enabled         = true
+    type            = "lb_cookie"
+  }
+}
+
 resource "aws_lb_listener" "alb_listener_http" {
   load_balancer_arn = aws_lb.alb.arn
   port              = 80
@@ -50,6 +77,17 @@ resource "aws_lb_listener" "alb_listener_http" {
       protocol    = "HTTPS"
       status_code = "HTTP_301"
     }
+  }
+}
+
+resource "aws_lb_listener" "alb_listener_http_test" {
+  load_balancer_arn = aws_lb.alb.arn
+  port              = 8080
+  protocol          = "HTTP"
+
+  default_action {
+    type             = "forward"
+    target_group_arn = aws_lb_target_group.alb_tg_green.arn
   }
 }
 

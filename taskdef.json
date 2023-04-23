@@ -1,0 +1,71 @@
+{
+    "containerDefinitions": [
+        {
+            "name": "hackathon-upper-turismo-container",
+            "image": "432627114264.dkr.ecr.us-east-1.amazonaws.com/hackathon-upper-turismo",
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 80,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": [],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "hackathon-upper-turismo-container-log",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "hackathon-upper-turismo-container"
+                }
+            }
+        }
+    ],
+    "family": "hackathon-upper-turismo-task",
+    "taskRoleArn": "arn:aws:iam::432627114264:role/hackathon-upper-turismo-ecs-task-assume-role",
+    "executionRoleArn": "arn:aws:iam::432627114264:role/hackathon-upper-turismo-ecs-task-assume-role",
+    "networkMode": "awsvpc",
+    "revision": 5,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+        },
+        {
+            "name": "ecs.capability.execution-role-awslogs"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.task-iam-role"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+        },
+        {
+            "name": "ecs.capability.task-eni"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2",
+        "FARGATE"
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "1024",
+    "memory": "2048"
+}
