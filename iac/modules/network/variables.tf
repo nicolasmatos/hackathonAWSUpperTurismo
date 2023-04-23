@@ -29,7 +29,7 @@ variable "sg_ec2" {
 variable "sg_alb" {
   type        = list(number)
   description = "Ports for the SG Load Balance"
-  default     = [80, 443]
+  default     = [80, 8080, 443]
 }
 
 variable "sg_rds" {
