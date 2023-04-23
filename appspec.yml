@@ -1,12 +1,9 @@
-version: 0.0
-os: linux
+version: 0.0 
 Resources:
- - TargetService:
-     Type: AWS::ECS::Service
-     Properties:
-       TaskDefinition: "arn:aws:ecs:us-east-1:432627114264:task-definition/hackathon-upper-turismo-task:5"
-       LoadBalancerInfo:
-         ContainerName: hackathon-upper-turismo-container
-         ContainerPort: 80
-Hooks:
-  - AfterAllowTestTraffic: "BlueGreenDeploy"
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:us-east-1:432627114264:task-definition/hackathon-upper-turismo-task:5"
+        LoadBalancerInfo: 
+          ContainerName: "hackathon-upper-turismo-container"
+          ContainerPort: "80"
