@@ -25,9 +25,13 @@ Essas instruções o ajudarão a implementar a aplicação criada para desafio u
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_network"></a> [network](#module\network) | ./modules/network | n/a |
+| <a name="module_iam"></a> [rds](#module\iam) | ./modules/iam | n/a |
+| <a name="module_s3"></a> [rds](#module\s3) | ./modules/s3 | n/a |
 | <a name="module_rds"></a> [rds](#module\rds) | ./modules/rds | n/a |
-| <a name="module_ec2"></a> [ec2](#module\ec2) | ./modules/ec2 | n/a |
+| <a name="module_sm"></a> [ec2](#module\sm) | ./modules/sm | n/a |
 | <a name="module_alb"></a> [alb](#module\alb) | ./modules/alb | n/a |
+| <a name="module_ecr"></a> [alb](#module\ecr) | ./modules/ecr | n/a |
+| <a name="module_ecs"></a> [alb](#module\ecs) | ./modules/ecs | n/a |
 | <a name="module_as"></a>  [as](#module\as)   | ./modules/as  | n/a |
 
 ## Variables Inputs
