@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:432627114264:task-definition/hackathon-upper-turismo-task:5"
+        TaskDefinition: "arn:aws:ecs:us-east-1:432627114264:task-definition/hackathon-upper-turismo-task:25"
         LoadBalancerInfo: 
           ContainerName: "hackathon-upper-turismo-container"
           ContainerPort: "80"
