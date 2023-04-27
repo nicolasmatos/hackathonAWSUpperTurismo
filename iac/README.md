@@ -97,7 +97,7 @@ Para execução e criação da infra-estrutura é necessária a confirmação di
 
 ## 🗂️ Diagrama da solução
 
-![Serviços AWS utilizados!](/diagram/diagram.png "Serviços AWS utilizados")
+![Serviços AWS utilizados!](/iac/diagram/diagram.png "Serviços AWS utilizados")
 
 ## 🛠️ Ferramentas utilizadas
 
